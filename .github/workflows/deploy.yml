@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@v0.1.10
+        uses: appleboy/ssh-action@v1.2.2
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
