@@ -1,0 +1,9 @@
+node_modules
+.svelte-kit
+build
+.cache
+.vscode
+.github
+*.log
+.DS_Store
+docker-compose.yml
