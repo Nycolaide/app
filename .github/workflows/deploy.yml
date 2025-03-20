@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
   deploy:
@@ -22,6 +22,6 @@ jobs:
           port: 55555
           script: |
             cd app
-            git pull origin main
+            git pull origin develop
             docker compose build
             docker compose up -d
