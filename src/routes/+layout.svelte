@@ -8,4 +8,9 @@
 	<meta name="description" content="sandbox description" />
 </svelte:head>
 
+<nav>
+	<a href="/">Home</a>
+	<a href="/docs">Docs</a>
+</nav>
+
 {@render children()}
